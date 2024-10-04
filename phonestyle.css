@@ -1,7 +1,6 @@
-/* Phone-specific Styles */
+/* Phone Sized style for CSS. */
 @media screen and (max-width: 480px) {
 
-    /* General body adjustments for phones */
     body {
         font-size: 80%;
     }
