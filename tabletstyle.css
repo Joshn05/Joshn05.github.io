@@ -1,7 +1,6 @@
-/* Tablet-specific Styles */
+/* Tablet sized version of CSS styles. */
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
-    /* General body adjustments for tablets */
     body {
         font-size: 90%;
     }
