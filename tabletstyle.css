@@ -1,0 +1,84 @@
+/* Tablet-specific Styles */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    /* General body adjustments for tablets */
+    body {
+        font-size: 90%;
+    }
+
+    /* Header */
+    header {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /* Navigation */
+    nav ul {
+        flex-direction: row; /* Keep horizontal navigation on tablets */
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 10px; /* Slightly reduce the margin between nav items */
+    }
+
+    nav ul li a {
+        font-size: 17px; /* Slightly smaller font size for tablet navigation */
+    }
+
+    /* Banner */
+    .banner {
+        padding: 12px;
+        margin-bottom: 18px;
+        font-size: 95%;
+    }
+
+    /* Sections */
+    section {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    /* Profile picture */
+    .profile-pic {
+        width: 130px;
+        height: 130px;
+    }
+
+    /* Forms */
+    form {
+        max-width: 100%; /* Ensure the form takes up full width */
+        padding: 0 20px; /* Add more padding around the form */
+    }
+
+    form input, form textarea {
+        font-size: 15px;
+    }
+
+    .form-group label {
+        font-size: 15px;
+    }
+
+    /* Stack the comments box and button vertically on smaller tablets */
+    .form-group-comments {
+        flex-direction: row;
+    }
+
+    /* Buttons */
+    button {
+        padding: 9px 18px;
+        font-size: 15px;
+    }
+
+    /* Projects Section */
+    .project {
+        margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px 0;
+        font-size: 90%;
+    }
+}
