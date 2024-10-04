@@ -19,7 +19,7 @@
     }
 
     nav ul li {
-        margin: 10px 0; /* Increase space between nav items */
+        margin: 10px 0; /* Make more space between the nav items. */
     }
 
     nav ul li a {
@@ -47,7 +47,7 @@
 
     /* Forms */
     form {
-        max-width: 100%; /* Ensure the form takes up full width */
+        max-width: 100%; /* Make the form the full width of the screen. */
         padding: 0 10px;
     }
 
@@ -59,7 +59,7 @@
         font-size: 14px;
     }
 
-    /* Stack the comments box and button vertically */
+    /* Make the box for comments and the submit button vertical.  */
     .form-group-comments {
         flex-direction: column;
     }
