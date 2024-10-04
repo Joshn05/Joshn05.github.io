@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #a200ff, rgb(17, 0, 255));
+    color: rgb(255, 255, 255);
+}
+
+h1, h2 {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #a200ff;
+    color: #a200ff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner {
+    background-color: rgb(212, 145, 248);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between the fields */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Display comments box and submit button side by side */
+.form-group-comments {
+    display: flex;
+    align-items: flex-start; /* Align button with top of textarea */
+    gap: 10px; /* Add space between the textarea and button */
+}
+
+textarea {
+    flex-grow: 1; /* Let the textarea take up remaining space */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-start; /* Align button to top */
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+
+    .form-group-comments {
+        flex-direction: column; /* Stack textarea and button vertically on smaller screens */
+    }
+}
