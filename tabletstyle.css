@@ -13,17 +13,17 @@
 
     /* Navigation */
     nav ul {
-        flex-direction: row; /* Keep horizontal navigation on tablets */
+        flex-direction: row; /* Allow horizontal navigations on people using tablets. */
         justify-content: space-evenly;
         padding: 0;
     }
 
     nav ul li {
-        margin: 0 10px; /* Slightly reduce the margin between nav items */
+        margin: 0 10px; /* Make the amount of space between nav items smaller. */
     }
 
     nav ul li a {
-        font-size: 17px; /* Slightly smaller font size for tablet navigation */
+        font-size: 17px; /* Make the font smaller. */
     }
 
     /* Banner */
@@ -47,7 +47,7 @@
 
     /* Forms */
     form {
-        max-width: 100%; /* Ensure the form takes up full width */
+        max-width: 100%; /* Make the form full width of the website. */
         padding: 0 20px; /* Add more padding around the form */
     }
 
@@ -59,7 +59,7 @@
         font-size: 15px;
     }
 
-    /* Stack the comments box and button vertically on smaller tablets */
+    /* Make the comments box and the submit button vertical for tablets. */
     .form-group-comments {
         flex-direction: row;
     }
