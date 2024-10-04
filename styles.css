@@ -7,7 +7,7 @@ body {
     background: linear-gradient(180deg, #a200ff, rgb(17, 0, 255));
     color: rgb(255, 255, 255);
 }
-
+/*Header styles*/
 h1, h2 {
     color: rgb(255, 255, 255);
 }
@@ -34,7 +34,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
-
+/*Banner styles*/
 .banner {
     background-color: rgb(212, 145, 248);
     padding: 10px;
@@ -48,13 +48,13 @@ section {
     margin: 10px 0;
     text-align: center;
 }
-
+/*Profile Picture Formatting*?
 .profile-pic {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
-
+/*Form Formatting*/
 form {
     max-width: 500px;
     margin: 0 auto;
@@ -98,7 +98,7 @@ form textarea {
 textarea {
     flex-grow: 1; /* Let the textarea take up remaining space */
 }
-
+/*Button Styles*/
 button {
     padding: 10px 20px;
     background-color: orange;
@@ -114,12 +114,12 @@ button:hover {
     background-color: darkorange;
 }
 
-/* Projects Section */
+/* Projects Styling */
 .project {
     margin-bottom: 20px;
 }
 
-/* Footer */
+/* Footer Styling*/
 footer {
     background: #333;
     color: #fff;
